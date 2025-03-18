@@ -1,0 +1,29 @@
+#Steps to Create and Run the Shell Script in Linux
+
+1. Open the terminal.
+2. Create a new shell script file.  
+3. Open the file in a text editor.  
+
+
+
+4. Write the script inside the file.
+
+
+
+5. Save and exit the editor.
+
+6. Give execution permissions to the script.  
+
+7. Run the script. 
+
+
+
+
+
+8. Follow the prompts to enter inputs and perform calculations. 
+
+
+
+9. Check the stored output in the generated file.
+
+
