@@ -18,7 +18,7 @@ sudo mkdir /home/consultants
 ```
 
 #### Screenshot:
-![Creating the consultants directory](screenshots/mkdir_consultants.png)
+![Creating the consultants directory](./mkdirhome.png)
 
 ---
 
@@ -34,7 +34,7 @@ sudo chmod g+w /home/consultants
 - `g+w`: Adds write (`w`) permission for the group (`g`).
 
 #### Screenshot:
-![Adding write permission to the group](screenshots/chmod_gw.png)
+![Adding write permission to the group](./chmodgw.png)
 
 ---
 
@@ -53,7 +53,7 @@ sudo chmod 770 /home/consultants
   - `0` (others): No permissions.
 
 #### Screenshot:
-![Setting permissions using the octal method](screenshots/chmod_770.png)
+![Setting permissions using the octal method](./chmod770.png)
 
 ---
 
@@ -71,7 +71,7 @@ drwxrwx--- 2 root consultants 4096 Oct 10 12:34 /home/consultants
 ```
 
 #### Screenshot:
-![Verifying directory permissions](screenshots/ls_ld_consultants.png)
+![Verifying directory permissions](./lsld.png)
 
 ---
 
@@ -103,7 +103,7 @@ The `umask` determines the default permissions for newly created files and direc
   - `7` (others): No permissions.
 
 #### Screenshot:
-![Changing and verifying umask](screenshots/umask_change.png)
+![Changing and verifying umask](./umask.png)
 
 ---
 
@@ -122,7 +122,7 @@ ls -l
 - Directory permissions: `drwxrwx---`
 
 #### Screenshot:
-![Confirming umask with new file and directory](screenshots/umask_confirm.png)
+![Confirming umask with new file and directory](./testfile.png)
 
 ---
 
