@@ -84,7 +84,7 @@ This is the third line of the file.
 
 After editing with Vim, the first line should appear as:
 ```
-This
+this
 ```
 
 ---
