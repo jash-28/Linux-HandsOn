@@ -39,7 +39,9 @@ Nano is a beginner-friendly text editor.
 3. Save the changes (`CTRL + O`) and exit (`CTRL + X`).
 
 #### Screenshot:
-![Editing with Nano](screenshots/nano_save_exit.png)
+![Editing with Nano](./nano.png)
+
+![Editing with Nano](./nanoter.png)
 
 ---
 
@@ -59,7 +61,7 @@ Vim is a powerful text editor with advanced features.
    - Press `ESC`, type `:wq`, and press `Enter`.
 
 #### Screenshot:
-![Editing with Vim](screenshots/vim_save_exit.png)
+![Editing with Vim](./vimoutput.png)
 
 ---
 
@@ -70,7 +72,7 @@ cat $lab_file
 ```
 
 #### Screenshot:
-![Verifying File Contents](screenshots/cat_file.png)
+![Verifying File Contents](./cat.png)
 
 ### Expected Output:
 If the file initially contained:
