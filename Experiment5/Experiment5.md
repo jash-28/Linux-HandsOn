@@ -29,8 +29,8 @@ The `ps` command displays details about active processes.
    ```
 
 #### Screenshots:
-- ![Display processes for the current user](./ps.png)
-- ![Display all processes](./ps0.png)
+- ![Display processes for the current user](./ps0.png)
+- ![Display all processes](./ps.png)
 - ![Display processes in full format](./psef.png)
 
 ---
@@ -62,8 +62,8 @@ The `kill` command is used to terminate processes by their PID.
    ```
 
 #### Screenshots:
-- ![Terminating a process by PID](./kill.png)
-- ![Forcefully terminating a process](./kill0.png)
+- ![Terminating a process by PID](./kill0.png)
+- ![Forcefully terminating a process](./kill.png)
 
 ---
 
@@ -78,7 +78,7 @@ sudo apt-get install htop
 ```
 
 #### Screenshot:
-![Installing htop](./installhtop.png)
+![Installing htop](./installhtop.jpg)
 
 ---
 
@@ -115,7 +115,7 @@ The `apt-get remove` command is used to uninstall software, and `apt-get purge` 
    ```
 
 #### Screenshots:
-- ![Removing htop](./removehtop.png)
+- ![Removing htop](./removehtop.jpg)
 - ![Purging htop](./purgehtop.png)
 
 ---
