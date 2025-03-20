@@ -80,7 +80,7 @@ backup_2024_v1.zip backup_2024_v2.zip backup_2024_v3.zip backup_2025_v1.zip back
 ## Snippets of the Task Performed
 
 ### 1. Viewing the `gedit` Manual Page
-![gedit man page](screenshots/mangedit.png)
+![gedit man page](./mangedit.jpg)
 
 ---
 
