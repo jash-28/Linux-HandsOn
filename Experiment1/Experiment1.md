@@ -51,13 +51,8 @@ ls
 
 ## Snippets of the Task Performed
 
-### 1. Creating Files and Directories
-![Creating Files and Directories](screenshots/create_files_dirs.png)
-
----
-
-### 2. Verifying Created Files and Directories
-![Listing Files](screenshots/list_files.png)
+### 1. Creating Files , Directories and  Verifying Created Files and Directories
+![Creating Files and Directories](./Experiment1.png)
 
 ---
 
