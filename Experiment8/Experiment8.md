@@ -37,20 +37,9 @@ This lab focuses on creating and executing shell scripts in Linux to gather syst
 ### 2. Shell Script to Print System Information
 
 ```bash
-#!/bin/bash
-# Display System Information
-echo "System Information:" > system_info.txt
-echo "--------------------------" >> system_info.txt
-
-echo "Hostname: $(hostname)" >> system_info.txt
-echo "User: $(whoami)" >> system_info.txt
-echo "Uptime: $(uptime -p)" >> system_info.txt
-echo "Memory Usage: " >> system_info.txt
-free -h >> system_info.txt
-echo "Disk Usage: " >> system_info.txt
-df -h >> system_info.txt
-
-echo "System information saved to system_info.txt"
+# Display the system configuration
+echo "Your System Configuration:"
+lscpu  # Display CPU information
 ```
 
 #### Screenshot:
@@ -62,28 +51,34 @@ echo "System information saved to system_info.txt"
 
 ```bash
 #!/bin/bash
-# Simple Calculator
-echo "Enter first number: "
-read num1
-echo "Enter second number: "
-read num2
+# Prompt user to enter two numbers for mathematical operations
+echo "Enter Two Numbers:"
+read Number1
+read Number2
 
-echo "Select operation: +, -, *, /"
-read op
+# Loop for continuous operation until user exits
+while true; do---
+    echo "Enter operation (+, -, *, /) or type 'exit' to quit:"
+    read char  # Read operation input
 
-case $op in
-    +) echo "Result: $(($num1 + $num2))" > calc_output.txt ;;
-    -) echo "Result: $(($num1 - $num2))" > calc_output.txt ;;
-    \*) echo "Result: $(($num1 * $num2))" > calc_output.txt ;;
-    /) if [ $num2 -ne 0 ]; then
-           echo "Result: $(($num1 / $num2))" > calc_output.txt
-       else
-           echo "Error: Division by zero is not allowed."
-       fi ;;
-    *) echo "Invalid operation." ;;
-esac
-
-echo "Calculation result stored in calc_output.txt"
+    case $char in
+        '+') echo "Addition: $((Number1 + Number2))" ;;
+        '-') echo "Subtraction: $((Number1 - Number2))" ;;
+        '*') echo "Multiplication: $((Number1 * Number2))" ;;
+        '/') 
+            if [ "$Number2" -ne 0 ]; then
+                echo "Division: $((Number1 / Number2))"
+            else
+                echo "Error: Division by zero is not allowed."
+            fi----
+            ;;
+        "exit") 
+            echo "Exiting..."
+            exit 0
+            ;;
+        *) echo "Invalid input. Please enter a valid operation." ;;
+    esac
+done
 ```
 
 #### Screenshot:
