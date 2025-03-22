@@ -23,7 +23,7 @@ The `useradd` command is used to create new user accounts.
    ```
 
 #### Screenshot:
-![Creating operator1 user](screenshots/useradd_operator1.png)
+![Creating operator1 user](./create.png)
 
 ---
 
@@ -37,7 +37,7 @@ The `passwd` command is used to assign or update passwords for user accounts.
    ```
 
 #### Screenshot:
-![Setting password for operator1](screenshots/passwd_operator1.png)
+![Setting password for operator1](./setting.png)
 
 ---
 
@@ -55,7 +55,7 @@ The `usermod` command is used to update user account settings.
    ```
 
 #### Screenshot:
-![Updating comments for operator1](screenshots/usermod_operator1.png)
+![Updating comments for operator1](./modifying.png)
 
 ---
 
@@ -71,9 +71,14 @@ The `userdel` command is used to delete user accounts.
    ```bash
    grep operator3 /etc/passwd
    ```
+#### Expected Output:
+```
+//No Output
+```
+
 
 #### Screenshot:
-![Removing operator3 user](screenshots/userdel_operator3.png)
+![Removing operator3 user](./removing.png)
 
 ---
 
