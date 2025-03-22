@@ -67,7 +67,7 @@ ls -ld /home/consultants
 
 #### Expected Output:
 ```
-drwxrwx--- 2 root consultants 4096 Oct 10 12:34 /home/consultants
+drwxrwx--- 2 root consultants 4096 Mar 20 11:35 /home/consultants
 ```
 
 #### Screenshot:
