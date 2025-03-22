@@ -1,4 +1,4 @@
-# Lab 13 & 14
+# Experiment 8
 
 ---
 
@@ -13,21 +13,20 @@ This lab focuses on creating and executing shell scripts in Linux to gather syst
 1. Open the terminal.
 2. Create a new shell script file using the `touch` command:
    ```bash
-   touch script.sh
+   touch Experiment8.sh
    ```
 3. Open the file in a text editor:
    ```bash
-   nano script.sh
+   nano Experiment8.sh
    ```
 4. Write the script inside the file.
 5. Save and exit the editor (`CTRL + X`, then `Y`, and `Enter`).
 6. Give execution permissions to the script:
    ```bash
-   chmod +x script.sh
+   chmod +x Experiment8.sh
    ```
 7. Run the script:
-   ```bash
-   ./script.sh
+   ```bash Experiment8t.sh
    ```
 8. Follow the prompts to enter inputs and perform calculations.
 9. Check the stored output in the generated file.
@@ -43,7 +42,7 @@ lscpu  # Display CPU information
 ```
 
 #### Screenshot:
-![System Information Script](screenshots/system_info_script.png)
+![System Information Script](./Systeminfo.png)
 
 ---
 
@@ -82,7 +81,26 @@ done
 ```
 
 #### Screenshot:
-![Mathematical Calculation Script](screenshots/calc_script.png)
+![Mathematical Calculation Script](./mathcalculation.png)
+
+---
+
+### 4. Shell Script to Use redirection operators to store the output of input commands.
+
+```bash
+#!/bin/bash
+# Prompt user to enter a system command
+echo "Enter a Linux command to execute:"
+read user_command  # Read user input
+
+# Execute the command and store the output in a file
+$user_command > command_output.txt
+echo "Command output saved to command_output.txt"
+
+```
+
+#### Screenshot:
+![Mathematical Calculation Script](./output+output_file.png)
 
 ---
 
