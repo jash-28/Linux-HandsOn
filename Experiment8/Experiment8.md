@@ -99,6 +99,10 @@ echo "Command output saved to command_output.txt"
 
 ```
 
+#### Input:
+```
+ls
+```
 #### Screenshot:
 ![Mathematical Calculation Script](./output+output_file.png)
 
